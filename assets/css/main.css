@@ -39,13 +39,12 @@
     --avatar-sm-width: 64px;
     --avatar-sm-height: 64px;
 
-    --avatar-sm-width: 102px;
-    --avatar-sm-height: 102px;
+    --avatar-md-width: 102px;
+    --avatar-md-height: 102px;
 
     --avatar-lrg-width: 128px;
     --avatar-lrg-height: 128px;
 }
-
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -68,4 +67,5 @@ p {
 img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
