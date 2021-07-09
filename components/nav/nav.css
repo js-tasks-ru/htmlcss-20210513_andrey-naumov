@@ -1,25 +1,38 @@
+.menu {
+    display: none;
+}
+
 .menu__list {
     display: flex;
     align-items: center;
     padding: 0;
-    margin: 0 0 0 1.875em;;
+    /* 30px */
+    margin: 0 0 0 1.875rem;
     list-style: none;
 }
 
 .menu__item {
-    margin-left: 24px;;
+    /* 24px */
+    margin-left: 1.5rem;
+    ;
 }
 
 .menu__item-link {
     font-family: Inter;
     font-weight: 400;
     font-style: normal;
-    font-size: 1em;
-    line-height: 2em;
+    font-size: 1rem;
+    line-height: 2rem;
     text-decoration: none;
     color: var(--grey-3);
 }
 
 .menu__item-link:hover {
     color: var(--menu-hover-color);
+}
+
+@media screen and (min-width: 768px) {
+    .menu {
+        display: block;
+    }
 }
